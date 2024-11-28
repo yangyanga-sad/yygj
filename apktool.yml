@@ -1,0 +1,42 @@
+version: 2.10.0
+apkFileName: yygj.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 17
+  targetSdkVersion: 19
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 1110
+  versionName: 1.1.1
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+  androidsupportmultidexversion.txt: 8
+  images/ant_logo_large.gif: 0
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: 8
+  org/apache/tools/ant/antlib.xml: 8
+  org/apache/tools/ant/defaultManifest.mf: 8
+  org/apache/tools/ant/version.txt: 8
+  org/apache/tools/ant/listener/defaults.properties: 8
+  org/apache/tools/ant/taskdefs/defaults.properties: 8
+  org/apache/tools/ant/taskdefs/javadoc-frame-injections-fix.txt: 8
+  org/apache/tools/ant/types/defaults.properties: 8
+  org/apache/tools/ant/types/conditions/antlib.xml: 8
+  org/apache/tools/ant/types/resources/comparators/antlib.xml: 8
+  org/apache/tools/ant/types/resources/selectors/antlib.xml: 8
+doNotCompress:
+- resources.arsc
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- png
+- ogg
+- jpg
+- mp3
